@@ -20,7 +20,6 @@ This project demonstrates a face recognition system that processes video files t
 ## Usage
 To run the face recognition system on a video file, use the following command:
 
-```bash
 python recognize_faces_video_file.py --encodings encodings.pickle --input {path to input video} --output {path to output video} --display 0
 
 Arguments
