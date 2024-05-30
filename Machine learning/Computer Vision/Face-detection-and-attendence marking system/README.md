@@ -22,13 +22,13 @@ To run the face recognition system on a video file, use the following command:
 
 python recognize_faces_video_file.py --encodings encodings.pickle --input {path to input video} --output {path to output video} --display 0
 
-Arguments
+### Arguments
 --encodings: Path to the serialized database of facial encodings.
 --input: Path to the input video file.
 --output: Path to the output video file.
 --display: Whether or not to display the output frame to the screen (1 to display, 0 to not display).
 --detection-method: Face detection model to use: either hog or cnn (default: cnn).
-Project Structure
+## Project Structure
 recognize_faces_video_file.py: The main script to run the face recognition system.
 encodings.pickle: A serialized file containing pre-trained facial encodings.
 Example
@@ -36,7 +36,7 @@ To run the face recognition on a sample video, you might use:
 
 python recognize_faces_video_file.py --encodings encodings.pickle --input sample_video.avi --output output_video.avi --display 1
 
-How It Works
+### How It Works
 Loading Encodings: The script loads the known facial encodings from a pickle file.
 Processing Video: It processes the input video frame by frame.
 Face Detection and Recognition: For each frame, it detects faces and compares them against the known encodings.
@@ -45,7 +45,7 @@ Output: The processed video is written to the specified output file, and optiona
 Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
