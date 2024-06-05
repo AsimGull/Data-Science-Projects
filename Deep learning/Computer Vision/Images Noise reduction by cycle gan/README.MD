@@ -40,7 +40,11 @@ Dataset: https://github.com/daboe01/SREP-18-33533B
 2. **Generating and Plotting Images**:
    - Real, generated, and reconstructed images are selected and plotted to visually assess the quality of the image enhancement.
 
-![CycleGAN Noise Reduction Result](../Deep learning/Computer Vision/Images Noise reduction by cycle gan/Results/atob.JPG)
+![Alt Text](../Deep learning/Computer Vision/Images Noise reduction by cycle gan/Results/atob.JPG)
+
+![Alt Text](../Results/atob.JPG)
+
+
 
 ### Summary:
 This project uses CycleGAN to improve low-quality corneal endothelium images by transforming them into high-quality images without requiring paired datasets. The preprocessing includes separating, cropping, and augmenting images. The model training involves a complex CycleGAN architecture with adversarial and cycle consistency losses. Evaluation involves visual assessment of generated and reconstructed images, showing promising results for better understanding and diagnosis of corneal endothelium.
