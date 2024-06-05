@@ -19,6 +19,8 @@ Dataset: https://github.com/daboe01/SREP-18-33533B
 4. **Loading and Converting Images to Arrays**:
    - Images are loaded and converted to numpy arrays, and then saved in a compressed file format.
 
+![Alt Text](./Results/Model_architechure.png)
+
 ### Model Training:
 1. **CycleGAN Architecture**:
    - **Discriminator**: Uses InstanceNormalization instead of BatchNormalization.
