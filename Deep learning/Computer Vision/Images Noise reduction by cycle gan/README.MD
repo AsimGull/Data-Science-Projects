@@ -40,9 +40,9 @@ Dataset: https://github.com/daboe01/SREP-18-33533B
 2. **Generating and Plotting Images**:
    - Real, generated, and reconstructed images are selected and plotted to visually assess the quality of the image enhancement.
 
-![Alt Text](../Deep learning/Computer Vision/Images Noise reduction by cycle gan/Results/atob.JPG)
 
-![Alt Text](../Results/atob.JPG)
+
+![Alt Text](./Results/atob.JPG)
 
 
 
