@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to perform sentiment analysis on tweets related to electricity in India and the UK. By analyzing public sentiment towards electricity-related topics, the project provides valuable insights that can aid policymakers, businesses, and researchers in understanding public opinions and trends. The analysis involves data collection, preprocessing, sentiment classification, and model evaluation.
+This project performs sentiment analysis on tweets related to electricity in India and the UK. By analyzing public sentiment towards electricity-related topics, the project provides insights that can aid policymakers, businesses, and researchers in understanding public opinions and trends. The analysis involves data collection, preprocessing, sentiment classification, and model evaluation.
 
 ## Key Components
 
@@ -118,4 +118,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or feedback, please contact me at [your-email@example.com](mailto:your-email@example.com).
-
