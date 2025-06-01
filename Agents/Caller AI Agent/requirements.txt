@@ -1,0 +1,39 @@
+# Web framework
+flask==2.2.5
+
+# Telephony Integration (e.g., Twilio)
+twilio==8.10.1
+
+# Real-time tunneling for local dev
+pyngrok==5.3.0
+
+# HTTP requests
+requests==2.31.0
+
+# For handling environment variables
+python-dotenv==1.0.1
+
+# For Speech Recognition (if using local ASR like Whisper)
+whisper==1.1.10
+torchaudio==2.2.0
+torch==2.2.0
+
+# For Text-to-Speech (optional: local TTS)
+TTS==0.22.0  # Coqui TTS for local voice synthesis
+
+# For OpenAI GPT Integration (or Claude etc.)
+openai==1.14.3
+
+# Optional: FastAPI (if you want async backend instead of Flask)
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# Optional: For data handling, caching
+redis==5.0.1
+pandas==2.2.2
+
+# Optional: WebSocket for real-time interactions
+websockets==12.0
+
+# Optional: Guardrails for AI
+guardrails-ai==0.4.0
